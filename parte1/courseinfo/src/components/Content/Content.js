@@ -1,13 +1,13 @@
-
+import Part from "./Part/Part"
 
 function Content(props) {
 
-    const { part, exercises } = props
-    
+    const { courseInfo } = props;
+
     return (
-        <p>
-            {part} {exercises}
-        </p>
+        <>
+            <Part courseInfo={courseInfo} />
+        </>
     )
 }
 
