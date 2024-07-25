@@ -2,7 +2,7 @@
 function Total (props) {
 
     return (
-        <p>Number of exercises {props.total}</p>
+        <p>Total number of exercises: {props.total}</p>
     )
 }
 
